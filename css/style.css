@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Merienda', cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.bg1 {
+  background-image: url(../img/bg/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 640px;
+  color: white;
+  margin-bottom: 80px;
+}
+.bg1 .header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.bg1 .header .menu {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+.bg1 .header .menu a {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.bg1 .header .menu a:nth-child(4) {
+  display: none;
+}
+.bg1 .center {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg1 .center h1 {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.bg1 .center .coffee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+.bg1 .center .coffee .elem {
+  width: 60px;
+  height: 1px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.bg1 .center p {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bg1 .center button {
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+  background: rgba(196, 196, 196, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.about h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.about .coffee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+.about .coffee .elem {
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}
+.about p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bg2 {
+  background-image: url(../img/bg/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+.bg2 h3 {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.bg2 .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  grid-template-rows: repeat(1, 240px);
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.bg2 .grid .elem {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  flex-direction: column;
+  height: 240px;
+  padding: 25px;
+}
+.bg2 .grid .elem img {
+  height: 140px;
+  width: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg2 .grid .elem .name {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.bg2 .grid .elem .price {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+.footer .menu {
+  display: flex;
+  gap: 40px;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer .menu a {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer .coffee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.footer .coffee .elem {
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
